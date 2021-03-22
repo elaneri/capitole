@@ -2,6 +2,19 @@ package sem;
 
 public class Util {
 
+	/**
+	 * Given a array of Integers   , 
+	 * return a String with the first 
+	 * biggest number on the right side of the array 
+	 * EXAMPLE
+	 * [X,Y,Z]
+	 * IF X<Y<Z
+	 * returns 
+	 * x->y
+	 * y-z
+	 * z->-1 Z is the last Integer of the array
+	 * */
+	 
 	public static String sem(int semArr[]) {
 		String sem = "";
 
